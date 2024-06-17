@@ -1,0 +1,20 @@
+.navbar{
+  background:  rgb(25, 52, 103);
+  height:70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar input{
+  width: 60%;
+  height:35px;
+  border-radius: 5px;
+  outline:none;
+  border:none;
+  text-align: center;
+  font-size:max(1.7vw,14px);
+}
+#search-icon{
+  font-size: max(2.3vw,18px);
+  margin-left: -30px;
+}

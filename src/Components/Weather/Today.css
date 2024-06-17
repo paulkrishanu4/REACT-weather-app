@@ -1,0 +1,12 @@
+.parent{
+  display:flex;
+  gap:20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-top: max(50px,30px);
+}
+
+.container{
+  margin-left: 30px;
+  margin-right: 30px;
+}

@@ -1,0 +1,14 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  padding: 20px;
+  box-shadow: 0px 0px 30px #00000015;
+  animation:fadeIn 3s; 
+}
+.card h3{
+  font-size:max(1.6vw,14px);
+}
+.card img{
+  width:50px;
+}

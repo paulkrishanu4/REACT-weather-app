@@ -1,0 +1,14 @@
+.weather-category{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  gap:max(50px,20px);
+  margin-top:50px;
+  animation:fadeIn 3s; 
+}
+.weather-category h2{
+  font-size:max(2vw, 12px);
+}
+.line{
+  border-bottom: 3px solid black;
+}
