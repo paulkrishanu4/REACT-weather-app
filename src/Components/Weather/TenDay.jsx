@@ -12,7 +12,7 @@ const TenDay = () => {
   const{name} = useContext(GlobalState)
 
   useEffect(()=>{
-    let url=`http://api.weatherapi.com/v1/forecast.json?key=364cd2dcdf4849b8abc63049242703&q=${name}&days=10&aqi=no&alerts=no`;
+    let url=`https://api.weatherapi.com/v1/forecast.json?key=364cd2dcdf4849b8abc63049242703&q=${name}&days=10&aqi=no&alerts=no`;
     fetch(url).then(response => response.json()).then(data => setHour2(data.forecast.forecastday[0].hour));
 
   },[name])
